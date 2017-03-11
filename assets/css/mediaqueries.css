@@ -1,0 +1,194 @@
+/* 
+
+Mediaqueries Contents: 
+
+01. Global
+02. Notebook
+03. Tablet
+04. Small Device
+05. Mobile Device
+
+
+*/
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 01. Global Responsive Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 02. Notebook Device Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 1280px) {
+	
+    
+/* End of Notebook Mediaqueries */
+}
+
+
+@media screen and (max-width: 1200px) {
+   
+/* End of Notebook Mediaqueries */
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 03. Large Tablet Device Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 990px) {
+    
+/* End of Large Tablet Mediaqueries */
+}
+
+
+@media screen and (max-width: 870px) {
+    
+    
+}
+@media screen and (max-width: 820px) {
+   
+    
+    
+}
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 03. Tablet Device Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+    
+   
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 740px) {
+    
+
+/* End of Tablet Mediaqueries */
+}
+
+ 
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 04. Small Device Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 500px) {
+
+    
+/* End of Small Device Mediaqueries */
+}
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 05. Mobile Device Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 400px) {
+   
+
+
+/* End of Mobile Device Mediaqueries */
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .sidebar {
+        display: none;
+    } 
+    #git li p {
+        padding-right: 0px;
+    }
+    
+     /** Footer **/
+    .wpc-footer .wpc-widget .wpc-latest-post .content {
+        padding-top: 0;
+    }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /** Footer **/
+    .wpc-footer .wpc-widget.widget_tag_cloud .tagcloud a {
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 992px) {
+    /** Footer **/
+    .wpc-footer .wpc-widget .wpc-instagram figure {
+        width: 25%;
+        height: inherit;
+        max-height: 300px;
+    }
+
+    .wpc-footer .wpc-widget .wpc-instagram figure a {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+     
+    .quick-links {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .quick-linkh3 {
+        margin-left: 0px;
+    }
+    /** Footer **/
+    .wpc-footer .wpc-widget .wpc-latest-post .img {
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+     .navbar-default .navbar-collapse {
+        border-color: #eb4223;
+        
+    }
+    .navbar-collapse {
+    
+        background-color: #fff;
+    }
+    .nav>li>a {
+        padding-right: 30px;
+    }
+    #git h1 {
+        margin-top: 50px;
+    }
+    
+    /** Footer **/
+    .wpc-footer .wpc-secondary-footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }   
+}
+
+@media only screen and (max-width: 600px) {
+    /** Footer **/
+    .wpc-footer .wpc-widget .wpc-latest-post .img {
+        width: 20%;
+    }
+
+    .wpc-footer .wpc-widget .wpc-latest-post .content {
+        width: 80%;
+        padding-top: 0;
+    }
+}
+@media only screen and (max-width: 480px) {
+    
+    /** Footer **/
+    .wpc-footer .wpc-secondary-footer .wpc-footer-social a {
+        margin-bottom: 15px;
+    }
+    
+    
+}
